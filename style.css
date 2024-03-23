@@ -95,6 +95,16 @@ header .contact {
     box-shadow: 0 0 4px var(--main-color);
 
     color: black;
+
+    transition: 0.3s ease-in-out;
+}
+
+
+header .contact:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 6px var(--main-color);
+
+    background-color: #4b939b38;
 }
 
 .home {
