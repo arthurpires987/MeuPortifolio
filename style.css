@@ -154,8 +154,9 @@ header .contact {
 
 .home .img-content {
     display: inline-flex;
-    position: relative;
     margin: 0 0 0 180px;
+    position: relative;
+    bottom: 50px;
     /* overflow: hidden; */
 }
 
