@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="style.css">
+
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
-    
-    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     
     <!-- Script Particles -->
     <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
@@ -46,7 +48,7 @@
             </ul>
         </nav>
 
-        <a href="#" class="contact">Contato</a>
+        <a href="#" class="contact-home">Contato</a>
     </header>
 
     <!-- Home -->
@@ -137,6 +139,7 @@
 
     <!-- ABOUT ME -->
     <section class="aboutMe" id="training">
+
         <div class="aboutMe-h1-container">
             <h1 class="aboutMe-h1">Sobre mim</h1>
         </div>
@@ -146,10 +149,10 @@
                 <img src="img/fotoPires.jpeg" alt="">
             </div>
             
-            <div  class="abouMe-container">
+            <div  class="aboutMe-container">
                     <h1>Arthur Pires</h1>
                     <p>
-                        Olá! Sou Arthur Pires, um Desenvolvedor Web Front-end cursando Ciência da Computação. Busco
+                        Olá! Sou Arthur Pires, um <span>Desenvolvedor Web Front-end</span> cursando Ciência da Computação. Busco
                         constantemente desafios e estou comprometido em criar experiências web excepcionais. Vamos trabalhar
                         juntos para construir algo incrível! 
                     </p>
@@ -159,7 +162,194 @@
             </div>
         </div>
 
+        <div class="timeline-container">
+            <h1>Minha Formação</h1>
+
+            <div class="timeline-items">
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2023</div>
+                    <div class="timeline-content">
+                        <h3>Ensino Médio</h3>
+                        <p>Finalizei o Ensino Médio em 2023, já tendo em vista a vontade de seguir na área de TI /
+                            Desenvolvimento Web. <br> Já havia concluido alguns cursos de Programação ao fim do Ensino
+                            Médio.</p>
+                    </div>
+                </div>
+    
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2024</div>
+                    <div class="timeline-content">
+                        <h3>Faculdade</h3>
+                        <p>Ingressei na Faculdade de Ciência da Computação no inicio de 2024, no momento, estou cursando o
+                            primeiro semestre do curso e estou em busca de estágio, com o intuito de adquirir experiência e
+                            conhecimento.</p>
+                    </div>
+                </div>
+    
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2024</div>
+                    <div class="timeline-content">
+                        <h3>Estágio</h3>
+                        <p>Em breve...</p>
+                    </div>
+                </div>
+    
+                <!-- <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <div class="timeline-date">2025</div>
+                    <div class="timeline-content">
+                        <h3>Primeiro Emprego</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi reiciendis, quo animi repellat aliquid at aspernatur suscipit necessitatibus quasi voluptatum atque ad. Quis culpa reprehenderit neque ipsam itaque sunt rerum.</p>
+                    </div>
+                </div> -->
+    
+            </div>
+        </div>
+
     </section>
+
+    <!-- SKILLS -->
+    <section class="skills" id="skills">
+
+        <h1>Skills de Desenvolvimento</h1>
+
+        <div class="lists">
+            <div class="lists-container">
+                <ul class="ul-skill-container">
+                    <li>
+                        <div  class="box-skill">
+                            <img src="img/icons/html5-icon.png" alt="">
+                            <h2>HTML5</h2>
+                            <p>Estrutura o conteúdo da web, introduzindo elementos semânticos e recursos multimídia.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="box-skill">
+                            <img src="img/icons/css3-icon.png" alt="">
+                            <h2>CSS3</h2>
+                            <p>Estiliza elementos HTML, oferecendo recursos como gradientes e animações.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="box-skill">
+                            <img src="img/icons/js-icon.png" alt="">
+                            <h2>JavaScript</h2>
+                            <p>Adiciona interatividade às páginas da web, executando no navegador do cliente.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="box-skill">
+                            <img src="img/icons/react-icon.png" alt="">
+                            <h2>ReactJS</h2>
+                            <p>Facilita a construção de interfaces de usuário dinâmicas e reativas em JavaScript.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="box-skill">
+                            <img src="img/icons/ts-icon.png" alt="">
+                            <h2>TypeScript</h2>
+                            <p> Estende JavaScript com tipagem estática e recursos avançados de desenvolvimento.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="box-skill-edit">
+                            <img src="img/icons/figma-icon.png" alt="">
+                            <h2>Figma</h2> <br>
+                            <img src="img/icons/tailwind-icon.png" alt="">
+                            <h2>Tailwind CSS</h2> <br>
+                            <img src="img/icons/bootstrap-icon.png" alt="">
+                            <h2>Bootstrap</h2>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects" id="projects">
+        <div class="project-introduction">
+            <h1>Projetos</h1>
+            <p>Veja uma seleção dos meus projetos desenvolvidos durante meus estudos, demonstrando meu compromisso com excelência e inovação em desafios de desenvolvimento e design.</p>
+        </div>
+
+        <div class="project-container">
+
+        </div>
+        <div class="project-container">
+
+        </div>
+        <div class="project-container">
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        
+        <h2 class="heading">Entre em <span>Contato</span></h2>
+
+        <!-- modify this form HTML and place wherever you want your form -->
+        <form action="https://formspree.io/f/mqkrdpoa" method="POST">
+            <div class="input-group">
+                <div class="input-box">
+                    <label>
+                        <input type="text" name="name" required placeholder="Nome completo">
+                        <input type="email" name="email" placeholder="Seu email">
+                    </label>
+                </div>
+            </div>
+            <div class="input-group-2">
+                <label>
+                    <textarea class="field" name="message" cols="30" rows="10" placeholder="Sua Mensagem"></textarea>
+                </label>
+                <!-- your other form fields go here -->
+                <button class="btn" type="submit">Enviar Email</button>
+            </div>
+        </form>
+
+    </section>
+
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/arthur-pires-21403a2b9/" target="_blank"><i
+                    class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/arthurpires987" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="https://www.instagram.com/arthurpires987/" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="mailto:arthur.piresantunes987@gmail.com"><i class="bx bxl-gmail"></i></a>
+            <a href="https://twitter.com/pires_dev" target="_blank"><i class='bx bxl-twitter'></i></a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#">Inicio</a>
+            </li>
+
+            <li>
+                <a href="#">Formação</a>
+            </li>
+
+            <li>
+                <a href="#">Skills</a>
+            </li>
+
+            <li>
+                <a href="#">Projetos</a>
+            </li>
+
+            <li>
+                <a href="#">Contato</a>
+            </li>
+        </ul>
+
+        <p class="copyright">
+            &copy Arthur Pires | Todos os direitos reservados
+        </p>
+    </footer>
     
     <script src="scripts/particles.js"></script>
     <script src="scripts/script.js"></script>
